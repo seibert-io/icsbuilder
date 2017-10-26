@@ -8,7 +8,7 @@ module.exports = {
     entry: './src/vue/main.js',
     output: {
         path: path.resolve(__dirname, './dist'),
-        publicPath: '/dist/',
+        publicPath: './',
         filename: 'main.js'
     },
     module: {
